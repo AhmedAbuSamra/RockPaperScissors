@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+  }
+
+  html, body {
+    height: 100%;
+  }
+
+.column {
+    height: 100%;
+    float: left;
+    padding: 10px;
+    width: 33.3333333%;
+}
+.player{
+    color: white;
+    background-color: #004A77;
+    text-align: center;
+}
+.result{
+    background-color: #00ADEE;
+}
+.computer{
+    background-color: #FF8100;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.main:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.btn{
+    height: 20%;
+    width: 50%;
+    margin: 10% 25%;
+}
+
+.badge{
+    width: 50%;
+    margin: 10% 25%;
+    background-color:greenyellow;
+}
